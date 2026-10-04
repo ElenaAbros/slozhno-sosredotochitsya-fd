@@ -438,11 +438,25 @@
     display: block;
   }
 
-  .gallery__image:nth-child(1) { grid-area: sunset; }
-  .gallery__image:nth-child(2) { grid-area: icecream; }
-  .gallery__image:nth-child(3) { grid-area: tape; }
-  .gallery__image:nth-child(4) { grid-area: books; }
-  .gallery__image:nth-child(5) { grid-area: street; }
+  .gallery__image:nth-child(1) {
+    grid-area: sunset;
+  }
+
+  .gallery__image:nth-child(2) {
+    grid-area: icecream;
+  }
+
+  .gallery__image:nth-child(3) {
+    grid-area: tape;
+  }
+
+  .gallery__image:nth-child(4) {
+    grid-area: books;
+  }
+
+  .gallery__image:nth-child(5) {
+    grid-area: street;
+  }
 
   .footer {
     min-height: 1024px;
