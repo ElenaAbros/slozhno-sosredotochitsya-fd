@@ -1,4 +1,67 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --color-background: #000028;
+  --color-primary: #FF0070;
+  --color-title: #DB00FF;
+  --color-text: #F1B2CE;
+  --color-text-on-primary: #000028;
+  --color-decor-bg: #FF0070;
+  --color-title-shadow: #FF0070;
+  --color-button-hover-border: rgba(255, 0, 112, 0.4);
+  --page-background-color: #000028;
+  --page-background-image: url('../images/cover-image-dark.png');
+  --font-family: 'IBM Plex Mono', monospace;
+  --font-size-h1: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --font-size-h2: 18px;
+  --font-size-h3: 18px;
+  --font-size-h4: 18px;
+  --font-size-lead: 18px;
+  --font-size-text: 18px;
+  --font-size-button: 18px;
+  --font-size-rec: 18px;
+  --line-height-h1: 82.5%;
+  --line-height-h2: 23.4px;
+  --line-height-h3: 23.4px;
+  --line-height-h4: 23.4px;
+  --line-height-lead: 23.4px;
+  --line-height-button: 18px;
+  --line-height-rec: 25px;
+  --line-height-text: 23.4px;
+  --letter-spacing-default: 0;
+  --main-padding-block-start: 40px;
+  --section-gap: 50px;
+  --card-gap: 20px;
+  --section-title-gap: 10px;
+  --section-padding-inline: 10px;
+  --card-title-gap: 10px;
+  --card-tips-gap: 20px;
+  --button-padding-inline: 13px;
+  --corner-offset: 10px;
+  --gallery-gap-footer: 40px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-background: #FFC2E6;
+    --color-primary: #353430;
+    --color-title: #FFC2E6;
+    --color-text: #353430;
+    --color-text-on-primary: #353430;
+    --color-decor-bg: #FF8DCB;
+    --color-title-shadow: #FF8DCB;
+    --color-button-hover-border: rgba(50, 49, 45, 0.4);
+    --page-background-color: transparent;
+    --page-background-image: url('../images/cover-image-light.png');
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --font-size-h1: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --corner-offset: 20px;
+    --section-padding-inline: 20px;
+    --main-padding-block-start: 60px;
+    --section-gap: 80px;
+    --gallery-gap-footer: 60px;
+    --section-title-gap: 20px;
+  }
+}
