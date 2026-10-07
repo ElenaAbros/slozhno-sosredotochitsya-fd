@@ -39,21 +39,6 @@
   --gallery-gap-footer: 40px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --color-background: #FFC2E6;
-    --color-primary: #353430;
-    --color-title: #FFC2E6;
-    --color-text: #353430;
-    --color-text-on-primary: #353430;
-    --color-decor-bg: #FF8DCB;
-    --color-title-shadow: #FF8DCB;
-    --color-button-hover-border: rgba(50, 49, 45, 0.4);
-    --page-background-color: transparent;
-    --page-background-image: url('../images/cover-image-light.png');
-  }
-}
-
 @media (min-width: 768px) {
   :root {
     --font-size-h1: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);

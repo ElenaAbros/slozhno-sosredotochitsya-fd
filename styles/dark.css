@@ -12,12 +12,16 @@
   --color-text-on-primary: #000028;
   --color-decor-bg: #FF0070;
   --color-title-shadow: #FF0070;
-  -color-button-hover-border: rgba(255, 0, 112, 0.4);
+  --color-button-hover-border: rgba(255, 0, 112, 0.4);
   --page-background-color: #000028;
   --page-background-image: url('../images/cover-image-dark.png');
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+}
+
+:root.theme-dark .header__rec {
+  display: flex;
 }
 
